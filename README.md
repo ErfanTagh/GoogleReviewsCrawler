@@ -4,13 +4,13 @@ A python scraper that extracts the google reviews from a given Google Search ter
 Selenium is used to retrieve the link of the business reviews page in google and then the information regarding the reviews are scraped using Scrapy
 and saved into a csv file.
 
-The following information for all reviews of the target:
-Reviewer Name (text)
-Review content (text)
-Rating (int)
-Review Time Information (text)
-Did the shop owner reply (bool)
-Reply text from Owner (text)
+The following information for all reviews of the target:\
+Reviewer Name (text) \
+Review content (text) \
+Rating (int) \
+Review Time Information (text) \
+Did the shop owner reply (bool) \
+Reply text from Owner (text) \
 
 This crawler script can be found at review_scraper/review_scraper/spiders/google.py. Also contained in the spiders folder is a requirements.txt file 
 that lists the Python modules required by the script. First, the script file obtains the URL of the review page of the specified business 
